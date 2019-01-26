@@ -1,0 +1,6 @@
+# ignore all target folders
+*/target/**
+
+# ignore all hidden files and folders expect gitignore
+.*
+!/.gitignore
