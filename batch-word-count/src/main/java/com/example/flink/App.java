@@ -6,6 +6,7 @@ import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.utils.ParameterTool;
+import org.apache.flink.core.fs.FileSystem;
 
 /**
  * Hello world!
@@ -39,7 +40,7 @@ public class App
         // Create ouptut file
         if(params.has("output")) {
             // newline for each newline and fields separated by space
-            counts.writeAsCsv(params.get("output"), "\n", " ");
+            counts.writeAsCsv(params.get("output"), "\n", " ", FileSystem.WriteMode.OVERWRITE);
             // execute program
             try {
                 env.execute("Wordcount example");

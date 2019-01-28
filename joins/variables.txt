@@ -1,0 +1,3 @@
+input1,file:///home/scott/projects/udemy-flink-tutorial/joins/person.txt 
+input2,file:///home/scott/projects/udemy-flink-tutorial/joins/location.txt 
+output,file:///home/scott/projects/udemy-flink-tutorial/joins/result 

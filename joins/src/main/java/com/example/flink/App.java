@@ -6,6 +6,7 @@ import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.api.java.utils.ParameterTool;
+import org.apache.flink.core.fs.FileSystem;
 
 
 /**
@@ -101,7 +102,7 @@ public class App
                     .with((x,y) -> new Tuple3<Integer, String, String>(x != null ? x.f0 : y.f0, x != null ? x.f1 : "NULL", y != null ? y.f1 : "NULL")) // NOte that y.f1 COULD be null here so have to check
                     .returns(new TypeHint<Tuple3<Integer,String,String>>(){});
         
-        joined.writeAsCsv(params.get("output"), "\n", " ");
+        joined.writeAsCsv(params.get("output"), "\n", " ", FileSystem.WriteMode.OVERWRITE);
         env.execute("Join task");
     }
 }

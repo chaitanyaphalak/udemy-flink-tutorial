@@ -1,0 +1,2 @@
+input,file:///home/scott/projects/udemy-flink-tutorial/batch-word-count/wc.txt 
+output,file:///home/scott/projects/udemy-flink-tutorial/batch-word-count/results 

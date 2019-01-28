@@ -1,0 +1,1 @@
+input,/home/scott/projects/udemy-flink-tutorial/reduceoperator/avg

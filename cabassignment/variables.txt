@@ -1,0 +1,3 @@
+input,file:///home/scott/projects/udemy-flink-tutorial/cabassignment/cab-short.txt
+popularDest,file:///home/scott/projects/udemy-flink-tutorial/cabassignment/popularDest
+output,file:///home/scott/projects/udemy-flink-tutorial/cabassignment/result

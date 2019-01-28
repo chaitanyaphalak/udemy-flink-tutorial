@@ -1,0 +1,64 @@
+id_4214,PB7526,Sedan,Wanda,yes,Sector 19,Sector 10,5
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 6,Sector 15,1
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 4,Sector 34,4
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 21,Sector 34,3
+id_4214,PB7526,Sedan,Wanda,yes,Sector 26,Sector 36,3
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 8,Sector 34,5
+id_4214,PB7526,Sedan,Wanda,yes,Sector 6,Sector 34,5
+id_4214,PB7526,Sedan,Wanda,yes,Sector 23,Sector 15,1
+id_4214,PB7526,Sedan,Wanda,yes,Sector 26,Sector 31,5
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 14,Sector 15,1
+id_4214,PB7526,Sedan,Wanda,no,'null','null','null'
+id_4214,PB7526,Sedan,Wanda,yes,Sector 7,Sector 5,2
+id_6639,JK8733,Mini,Helene,yes,Sector 21,Sector 5,3
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 18,Sector 15,2
+id_6639,JK8733,Mini,Helene,yes,Sector 2,Sector 12,5
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 19,Sector 25,4
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 21,Sector 16,4
+id_6639,JK8733,Mini,Helene,yes,Sector 14,Sector 16,4
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 8,Sector 5,4
+id_6639,JK8733,Mini,Helene,yes,Sector 14,Sector 10,5
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 1,Sector 3,5
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 2,Sector 11,5
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,no,'null','null','null'
+id_6639,JK8733,Mini,Helene,yes,Sector 17,Sector 25,5
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,yes,Sector 18,Sector 22,1
+id_1081,MH2174,MUV,Humberto,yes,Sector 4,Sector 22,2
+id_1081,MH2174,MUV,Humberto,yes,Sector 6,Sector 31,5
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,yes,Sector 17,Sector 3,5
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,yes,Sector 18,Sector 31,3
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,yes,Sector 8,Sector 15,2
+id_1081,MH2174,MUV,Humberto,yes,Sector 14,Sector 11,2
+id_1081,MH2174,MUV,Humberto,yes,Sector 2,Sector 34,4
+id_1081,MH2174,MUV,Humberto,yes,Sector 2,Sector 10,2
+id_1081,MH2174,MUV,Humberto,yes,Sector 14,Sector 15,4
+id_1081,MH2174,MUV,Humberto,yes,Sector 17,Sector 5,1
+id_1081,MH2174,MUV,Humberto,yes,Sector 1,Sector 34,3
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_1081,MH2174,MUV,Humberto,yes,Sector 2,Sector 22,1
+id_1081,MH2174,MUV,Humberto,no,'null','null','null'
+id_9326,GA6746,LUV,Sayuri,no,'null','null','null'
