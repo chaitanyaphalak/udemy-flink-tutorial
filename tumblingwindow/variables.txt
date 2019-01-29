@@ -1,0 +1,2 @@
+port,9090
+output,file:///home/scott/projects/udemy-flink-tutorial/tumblingwindow/result.txt
