@@ -28,12 +28,19 @@ public class Main {
             try {
                 PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
                 Random random = new Random();
+                int iteratorValue = 1;
                 while(true) {
                     int i = random.nextInt(100);
                     String s = Timestamp.from(Instant.now()) + "," + i;
                     System.out.println("Sending: " + s);
                     out.println(s);
-                    Thread.sleep(100);
+                    // Sleep longer after 10 to simulate "sessions"
+                    if(iteratorValue % 100 == 0) {
+                        Thread.sleep(4000);
+                    } else {
+                        Thread.sleep(100);
+                    }
+                    iteratorValue++;
                 }
             } finally {
                 socket.close();

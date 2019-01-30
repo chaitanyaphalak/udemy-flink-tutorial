@@ -2,6 +2,9 @@
 */target/**
 */out/**
 
+# Ignore files from udemy
+/course-material/
+
 # ignore all hidden files and folders expect gitignore
 .*
 !/.gitignore
