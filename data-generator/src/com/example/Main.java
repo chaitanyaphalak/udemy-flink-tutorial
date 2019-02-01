@@ -7,6 +7,7 @@ import java.net.Socket;
 import java.sql.Timestamp;
 import java.time.Instant;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.Random;
 
 public class Main {
@@ -31,7 +32,9 @@ public class Main {
                 int iteratorValue = 1;
                 while(true) {
                     int i = random.nextInt(100);
-                    String s = Timestamp.from(Instant.now()) + "," + i;
+                    // Round timestamp down to minute so we can key on minute
+                    final LocalDateTime dttm = LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES);
+                    String s = Timestamp.valueOf(dttm) + "," + i;
                     System.out.println("Sending: " + s);
                     out.println(s);
                     // Sleep longer after 10 to simulate "sessions"

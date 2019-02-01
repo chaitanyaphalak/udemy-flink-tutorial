@@ -1,0 +1,1 @@
+output,file:///Users/scott.martin/personalProjects/udemy-flink-tutorial/globalwindow/result.txt
